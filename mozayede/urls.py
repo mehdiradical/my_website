@@ -1,8 +1,9 @@
 from django.contrib import admin
 from django.urls import path
-from mozayede.views import home_view, about_view, contact_view
+from mozayede.views import *
 
 urlpatterns = [
-    path("", home_view),
-
+    path("", home),
+    path("contact/", contact),
+    path("about/", about),
 ]
