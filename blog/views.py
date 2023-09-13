@@ -6,4 +6,5 @@ def blog_view(request):
 
 
 def blog_single(request):
-    return render(request, "blog/blog-single.html")
+    contex = {"title":"Programmer Mr Mahdi Saberizadeh","content":"mahdi saberi zadeh is amazing Programmer!"}
+    return render(request, "blog/blog-single.html",contex)
