@@ -10,6 +10,3 @@ def contact(request):
 def about(request):
     return render(request,"about.html")
 
-def test_view(request):
-    return render(request,"test.html",{"name":"mahdi","lname":"saberi"})  
-
